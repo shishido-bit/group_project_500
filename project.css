@@ -1,3 +1,20 @@
+/* 
+————Color Codes for Website———
+
+Deep Blue: #0D1321
+Dark Blue: #1D2D44
+Medium Blue: #3E5C76
+Light Blue: #748CAB
+Tan: #F0EBD8
+*/
+
+/* 
+————Fonts to Use————
+Georgia for headings and titles)
+Verdana for paragraphs and main text
+Backup Fonts: Arial, Sans-Serif
+*/
+
 * {
   box-sizing: border-box;
 }
@@ -5,12 +22,16 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #F0EBD8;
+  Font-family: Verdana, Arial, Sans-Serif;
 }
 
 header {
-  background-color: #f1f1f1;
+  background-color: #0D1321;
   padding: 10px;
   text-align: center;
+  color: white;
+  font-family: Georgia, Arial, Sans-Serif;
 }
 
 ul.topnav {
@@ -19,6 +40,7 @@ ul.topnav {
   margin: 0;
   padding: 0;
   background-color: #333333;
+  Font-family: Georgia, Arial, Sans-Serif;
 }
 
 ul.topnav li a {
@@ -31,4 +53,23 @@ ul.topnav li a {
 ul.topnav li a:hover {
   background-color: #dddddd;
   color: black;
+}
+section {
+	margin: 30px
+}
+video {
+	width: 100%;
+	margin: auto;
+	
+}
+footer {
+	Background-color:#0D1321;
+	position: fixed;
+	bottom: 0;
+  	text-align: center;
+  	width: 100%;
+  	color: white;
+}
+.email {
+	color: white;
 }
