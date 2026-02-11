@@ -57,10 +57,9 @@ ul.topnav li a:hover {
 section {
 	margin: 30px
 }
-video {
-	width: 100%;
-	margin: auto;
-	
+.video {
+	margin: 30px;
+	text-align: center
 }
 footer {
 	Background-color:#0D1321;
