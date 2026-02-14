@@ -64,12 +64,12 @@ section {
 	vertical-align: center;
 }
 footer {
-	Background-color:#0D1321;
-	position: fixed;
-	bottom: 0;
-  	text-align: center;
-  	width: 100%;
-  	color: white;
+    background-color: #0D1321;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    color: white;
+    margin-top: 50px;
 }
 .email {
 	color: white;
