@@ -59,9 +59,10 @@ section {
 	margin: 30px
 }
 .video {
-	margin: 30px;
-	text-align: center;
-	vertical-align: center;
+	margin: auto;
+	dispalay: flex;
+	width: 640px;
+	height: 480px;
 }
 footer {
     background-color: #0D1321;
