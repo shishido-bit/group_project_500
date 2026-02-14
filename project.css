@@ -79,40 +79,43 @@ footer {
   display: flex;
   justify-content: center;
   align-items: stretch;
-  gap: 40px;            /* Increased gap for a cleaner, spacious look */
-  padding: 50px 20px;
-  max-width: 1100px;
+  gap: 30px;
+  padding: 40px 20px;
+  max-width: 1000px;
   margin: 0 auto;
   flex-wrap: wrap;
 }
 
-/* Polished biography boxes */
+/* Rounded biography boxes with dark gray border */
 .intro-box {
   flex: 1;
   min-width: 300px;
-  background-color: #fafafa; /* Very light gray for a subtle professional feel */
-  border-top: 4px solid #333333; /* Thick top border for a structured look */
-  border-left: 1px solid #dddddd;
-  border-right: 1px solid #dddddd;
-  border-bottom: 1px solid #dddddd;
+  background-color: #ffffff;
+  
+  /* Border settings: 2px thickness, solid line, dark gray color */
+  border: 2px solid #555555; 
+  
+  /* Rounding the corners (15px gives a modern, soft look) */
+  border-radius: 15px; 
+  
   padding: 30px;
-  border-radius: 4px; /* Tiny rounding for a refined finish */
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
 }
 
 /* Heading for the names */
 .intro-box h2 {
   margin-top: 0;
   font-size: 1.4rem;
-  font-weight: 600;
-  color: #111111;
-  letter-spacing: 0.5px; /* Slightly more space between letters */
+  color: #333333;
+  border-bottom: 1px solid #cccccc; /* Subtle line under the name */
+  padding-bottom: 10px;
   margin-bottom: 15px;
 }
 
 /* Biography text */
 .intro-box p {
-  line-height: 1.8;      /* Increased line height for better readability */
+  line-height: 1.7;
   color: #444444;
-  font-size: 0.95rem;
+  font-size: 1rem;
   margin-bottom: 0;
 }
