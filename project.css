@@ -135,14 +135,18 @@ footer {
   padding-bottom: 8px;
 }
 
-/* Rounded box for the list */
 .resource-list {
   list-style: none;
   padding: 0;
+}
+
+.resource-list li {
   background-color: #ffffff;
-  border: 2px solid #555555; /* Dark gray border */
-  border-radius: 15px;       /* Rounded corners */
-  overflow: hidden;          /* Fixes corner rounding */
+  border: 2px solid #555555;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px; /* 箱同士の間隔 */
+  color: #444444;
 }
 
 /* Individual list items */
