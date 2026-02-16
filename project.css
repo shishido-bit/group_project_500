@@ -176,45 +176,37 @@ footer {
   padding: 5px 0;
   margin: 0;
 }
-/* Welcome Page Layout */
+/* Welcome Page Layout (Stacked) */
 section {
-    display: flex;
-    gap: 40px;
-    max-width: 1000px;
+    max-width: 800px;
     margin: 40px auto;
     padding: 0 20px;
-    align-items: flex-start;
 }
 
 .columnleft {
-    flex: 1;
-    border-right: 2px solid #555555;
-    padding-right: 20px;
+    margin-bottom: 20px;
 }
 
-.columnright {
-    flex: 2;
+.columnleft h3 {
+    color: #0D1321;
+    font-family: Georgia, serif;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
 }
 
 .columnright h4 {
-    /* Yellow marker highlight effect using a gradient */
+    /* Yellow marker highlight effect */
     background: linear-gradient(transparent 60%, #FFF176 60%); 
-    
-    /* Apply the highlight only to the length of the text */
     display: inline-block;      
-    
-    /* Add slight padding on the sides for a cleaner look */
     padding: 0 5px;       
-    
-    /* Styling for font and color */
     color: #1D2D44;       
     font-family: Georgia, serif;
     font-size: 1.2rem;
-    margin-top: 0;
+    margin-top: 20px;
     margin-bottom: 10px;
 }
 
 .columnright p {
     line-height: 1.8;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
