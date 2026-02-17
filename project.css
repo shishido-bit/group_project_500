@@ -40,7 +40,7 @@ ul.topnav {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #333333;
+  background-color: #1D2D44;
   Font-family: Georgia, Arial, Sans-Serif;
 }
 
@@ -55,6 +55,25 @@ ul.topnav li a:hover {
   background-color: #dddddd;
   color: black;
 }
+
+#welcome {
+	background-color: #748CAB;
+	color: white;
+}
+#aboutme {
+	background-color: #748CAB;
+	color: white;
+}
+#resources {
+	background-color: #748CAB;
+	color: white;
+}
+#techheros {
+	background-color: #748CAB;
+	color: white;
+	float: right;
+}
+
 section {
 	margin: 30px
 }
