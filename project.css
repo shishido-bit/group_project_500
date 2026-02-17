@@ -15,16 +15,12 @@ Verdana for paragraphs and main text
 Backup Fonts: Arial, Sans-Serif
 */
 
+/*————GLOBAL DESIGN————*/
 * {
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #F0EBD8;
-  Font-family: Verdana, Arial, Sans-Serif;
-}
+/*————END OF GLOBAL DESIGN————*/
 
 header {
   background-color: #0D1321;
@@ -34,6 +30,8 @@ header {
   font-family: Georgia, Arial, Sans-Serif;
 	font-weight: 100;
 }
+
+/*————NAVIGATOIN BAR DESIGN————*/
 
 ul.topnav {
   display: flex;
@@ -74,6 +72,17 @@ ul.topnav li a:hover {
 	float: right;
 }
 
+/*————END OF NAVIGATION BAR DESIGN————*/
+
+/*————BODY DESIGN————*/
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F0EBD8;
+  Font-family: Verdana, Arial, Sans-Serif;
+}
+
 section {
 	margin: 30px
 }
@@ -82,17 +91,6 @@ section {
 	display: flex;
 	width: 640px;
 	height: 480px;
-}
-footer {
-    background-color: #0D1321;
-    padding: 20px 0;
-    text-align: center;
-    width: 100%;
-    color: white;
-    margin-top: 50px;
-}
-.email {
-	color: white;
 }
 /* Container for the introduction sections */
 .intro-container {
@@ -229,3 +227,21 @@ section {
     line-height: 1.8;
     margin-bottom: 20px;
 }
+/*————END OF BODY DESIGN————*/
+
+/*————FOOTER DESIGN————*/
+
+footer {
+    background-color: #0D1321;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    color: white;
+    margin-top: 50px;
+}
+.email {
+	color: white;
+}
+
+/*————END OF FOOTER DESIGN————*/
+
