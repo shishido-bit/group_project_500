@@ -93,7 +93,7 @@ section {
 	width: 640px;
 	height: 480px;
 }
-/* Container for the introduction sections */
+/*————Container for the introduction sections————*/
 .intro-container {
   display: flex;
   justify-content: center;
@@ -105,23 +105,23 @@ section {
   flex-wrap: wrap;
 }
 
-/* Rounded biography boxes with dark gray border */
+/*————Rounded biography boxes with dark gray border————*/
 .intro-box {
   flex: 1;
   min-width: 300px;
   background-color: #ffffff;
   
-  /* Border settings: 2px thickness, solid line, dark gray color */
+  /*————Border settings: 2px thickness, solid line, dark gray color————*/
   border: 2px solid #555555; 
   
-  /* Rounding the corners (15px gives a modern, soft look) */
+  /*————Rounding the corners (15px gives a modern, soft look)————*/
   border-radius: 15px; 
   
   padding: 30px;
   box-sizing: border-box; /* Ensures padding doesn't affect width */
 }
 
-/* Heading for the names */
+/*————Heading for the names————*/
 .intro-box h2 {
   margin-top: 0;
   font-size: 1.4rem;
@@ -131,14 +131,14 @@ section {
   margin-bottom: 15px;
 }
 
-/* Biography text */
+/*————Biography text————*/
 .intro-box p {
   line-height: 1.7;
   color: #444444;
   font-size: 1rem;
   margin-bottom: 0;
 }
-/* Container for the Resource list */
+/*————Container for the Resource list————*/
 .resource-container {
   max-width: 800px;
   margin: 40px auto;
@@ -159,7 +159,7 @@ section {
   color: #444444;
 }
 
-/* Individual list items */
+/*————ndividual list items————*/
 .resource-list {
   list-style: none;
   padding: 0;
@@ -186,7 +186,7 @@ section {
   padding: 5px 0;
   margin: 0;
 }
-/* Welcome Page Layout (Stacked) */
+/*————Welcome Page Layout (Stacked)————*/
 section {
     max-width: 800px;
     margin: 40px auto;
