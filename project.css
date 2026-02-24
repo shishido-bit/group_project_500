@@ -95,9 +95,8 @@ section {
 }
 
 #jkp {
-	float: left;
 	width: 30px;
-	radius: 25%;
+	radius: 20px;
 	{
 /*————Container for the introduction sections————*/
 .intro-container {
