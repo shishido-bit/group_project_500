@@ -93,6 +93,12 @@ section {
 	width: 640px;
 	height: 480px;
 }
+
+#jkp {
+	float: left;
+	width: 30px;
+	radius: 25%;
+	{
 /*————Container for the introduction sections————*/
 .intro-container {
   display: flex;
