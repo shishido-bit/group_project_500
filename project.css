@@ -139,6 +139,12 @@ section {
 	display: block;
 	margin: 0px auto 25px
 }
+.intro-box h2 #ms {
+	width: 350px;
+	border-radius: 50%;
+	display: block;
+	margin: 0px auto 25px
+}
 
 /*————Biography text————*/
 .intro-box p {
