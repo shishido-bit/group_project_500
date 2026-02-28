@@ -99,8 +99,7 @@ ul.navigation
 	{
   display: inline-block;
   list-style-type: none;
-  margin: 0px;
-  width: 130px;
+  color: white;
   background-color: #1D2D44;
   border-radius: 0px 20px 20px 0px;
   font-family: Georgia;
