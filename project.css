@@ -242,7 +242,7 @@ section {
 }
 
 /*—————About Us Page: Video Title Heading—————*/
-section.introductions
+h1.introductions
 	{
 	text-align: center;
 }
