@@ -97,11 +97,13 @@ section {
 /*————IN-PAGE CONTENT NAVIGATION————*/
 ul.navigation
 	{
-  display: inline-block;
-  color: white;
   list-style-type: none;
+  margin: 0px;
+  width: 130px;
   background-color: #1D2D44;
   border-radius: 0px 20px 20px 0px;
+  height: 200px;
+  position: fixed;
   font-family: Georgia;
   padding: 0px;
   text-wrap: wrap;
