@@ -236,8 +236,8 @@ section {
     margin-bottom: 20px;
 }
 
-p.testv {
-	width: 50%;
+.testv {
+	text-align: center;
 }
 
 /*————END OF BODY DESIGN————*/
