@@ -132,11 +132,11 @@ ul.navigation li:hover {
 }
 
 .navlink {
+	text-decoration: none;
 	color: white;
 	visted: white;
 	hover: white;
 	active: white;
-	text-decoration: none;
 }
 
 /*————END OF IN-PAGE NAVIGATION————*/
