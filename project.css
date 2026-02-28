@@ -94,50 +94,6 @@ section {
 	height: 480px;
 }
 
-/*————IN-PAGE CONTENT NAVIGATION————*/
-ul.navigation
-	{
-  display: inline-block;
-  list-style-type: none;
-  color: white;
-  background-color: #1D2D44;
-  border-radius: 0px 20px 20px 0px;
-  font-family: Georgia;
-  padding: 0px;
-  text-wrap: wrap;
-  float: left;
-}
-
-.test-nav {
-	 padding: 14px 16px;
-	 margin: 0px;
-}
-
-.tb {
-	border-radius: 0px 0px 20px 0px;
-}
-.bt {
-	border-radius: 0px 20px 0px 0px;
-}
-
-ul.navigation li:hover {
-  color: white;
-  text-decoration: none;
-  font-family: Georgia;
-  background-color: #748CAB
-}
-
-.navlink {
-	text-decoration: none;
-	color: white;
-	visted: white;
-	hover: white;
-	active: white;
-}
-
-/*————END OF IN-PAGE NAVIGATION————*/
-
-
 /*————Container for the introduction sections————*/
 .intro-container {
   display: flex;
