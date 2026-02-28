@@ -102,12 +102,10 @@ ul.navigation
   width: 130px;
   background-color: #1D2D44;
   border-radius: 0px 20px 20px 0px;
-  height: 200px;
-  position: sticky;
-  top: 20px;
   font-family: Georgia;
   padding: 0px;
   text-wrap: wrap;
+  float: left;
 }
 
 .test-nav {
@@ -210,6 +208,8 @@ ul.navigation li:hover {
 .resource-list {
   list-style: none;
   padding: 0;
+  float: right;
+  text-wrap: wrap;
 }
 
 .resource-list li {
