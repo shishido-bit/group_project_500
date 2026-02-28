@@ -109,11 +109,6 @@ ul.navigation
   text-wrap: wrap;
 }
 
-div.sticky {
-	position: sticky;
-	top: 20px;
-}
-
 .test-nav {
 	 padding: 14px 16px;
 	 margin: 0px;
