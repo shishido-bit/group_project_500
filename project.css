@@ -106,7 +106,7 @@ ul.navigation
   padding: 0px;
 }
 
-.sticky {
+div.sticky {
 	position: sticky;
 	top: 20px;
 }
