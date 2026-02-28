@@ -103,7 +103,8 @@ ul.navigation
   background-color: #1D2D44;
   border-radius: 0px 20px 20px 0px;
   height: 200px;
-  position: fixed;
+  position: sticky;
+  top: 20px;
   font-family: Georgia;
   padding: 0px;
   text-wrap: wrap;
