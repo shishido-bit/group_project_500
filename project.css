@@ -93,6 +93,48 @@ section {
 	width: 640px;
 	height: 480px;
 }
+
+/*————CONTENT NAVIGATION————*/
+ul.navigation
+	{
+  display: inline-block;
+  color: white;
+  list-style-type: none;
+  background-color: #1D2D44;
+  border-radius: 0px 20px 20px 0px;
+  font-family: Georgia;
+  float: left;
+  padding: 0px;
+  flex-wrap: wrap;
+}
+
+div.sticky {
+	top: 400px;
+	position: sticky;
+}
+
+.test-nav {
+	 padding: 14px 16px;
+	 margin: 0px;
+}
+
+.tb {
+	border-radius: 0px 0px 20px 0px;
+}
+.bt {
+	border-radius: 0px 20px 0px 0px;
+}
+
+ul.navigation li:hover {
+  color: white;
+  text-decoration: none;
+  font-family: Georgia;
+  background-color: #748CAB
+}
+
+/*————END OF CONTENT NAVIGATION BAR DESIGN————*/
+
+
 /*————Container for the introduction sections————*/
 .intro-container {
   display: flex;
