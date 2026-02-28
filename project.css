@@ -94,7 +94,7 @@ section {
 	height: 480px;
 }
 
-/*————CONTENT NAVIGATION————*/
+/*————IN-PAGE CONTENT NAVIGATION————*/
 ul.navigation
 	{
   display: inline-block;
@@ -132,7 +132,7 @@ ul.navigation li:hover {
   background-color: #748CAB
 }
 
-/*————END OF CONTENT NAVIGATION BAR DESIGN————*/
+/*————END OF IN-PAGE NAVIGATION————*/
 
 
 /*————Container for the introduction sections————*/
