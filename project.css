@@ -133,6 +133,9 @@ ul.navigation li:hover {
 
 .navlink {
 	color: white;
+	visted: white;
+	hover: white;
+	active: white;
 }
 
 /*————END OF IN-PAGE NAVIGATION————*/
