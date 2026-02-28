@@ -104,6 +104,7 @@ ul.navigation
   border-radius: 0px 20px 20px 0px;
   font-family: Georgia;
   padding: 0px;
+  float: left;
 }
 
 div.sticky {
