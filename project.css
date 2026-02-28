@@ -164,8 +164,6 @@ section {
 .resource-list {
   list-style: none;
   padding: 0;
-  float: right;
-  text-wrap: wrap;
 }
 
 .resource-list li {
