@@ -136,6 +136,7 @@ ul.navigation li:hover {
 	visted: white;
 	hover: white;
 	active: white;
+	text-decoration: none;
 }
 
 /*————END OF IN-PAGE NAVIGATION————*/
