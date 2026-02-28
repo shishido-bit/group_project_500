@@ -97,6 +97,7 @@ section {
 /*————IN-PAGE CONTENT NAVIGATION————*/
 ul.navigation
 	{
+  display: inline-block;
   list-style-type: none;
   margin: 0px;
   width: 130px;
