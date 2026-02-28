@@ -106,6 +106,7 @@ ul.navigation
   float: left;
   padding: 0px;
   flex-wrap: wrap;
+  position: sticky;
 }
 
 div.sticky {
