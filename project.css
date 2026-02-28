@@ -104,11 +104,11 @@ ul.navigation
   border-radius: 0px 20px 20px 0px;
   font-family: Georgia;
   padding: 0px;
-  flex-wrap: wrap;
 }
 
-.position {
+.sticky {
 	position: sticky;
+	top: 20px;
 }
 
 .test-nav {
