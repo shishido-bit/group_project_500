@@ -244,9 +244,8 @@ section {
 /*—————About Us Page: Video Title Heading—————*/
 .introductions
 	{
-	margin: 50%;
 	font-family: Georgia, Arial, Sans-Serif;
-	clear: both;
+	text-align: center;
 }
 
 
