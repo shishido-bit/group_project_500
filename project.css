@@ -242,7 +242,7 @@ section {
 }
 
 /*—————About Us Page: Video Title Heading—————*/
-h1.introductions
+.introductions
 	{
 	clear: both;
 	margin: auto;
