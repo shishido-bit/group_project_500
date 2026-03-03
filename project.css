@@ -244,7 +244,10 @@ section {
 }
 
 /*—————About Us Page: Video Title Heading—————*/
-
+.introductions {
+	text-align: center;
+	text-size: 1.2rem;
+}
 
 
 /*————END OF BODY DESIGN————*/
