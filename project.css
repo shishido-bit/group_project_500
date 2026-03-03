@@ -79,7 +79,7 @@ ul.topnav li a:hover {
 
 /*————INSIDE PAGE NAVIGATION BAR | To create this, I used W3School's tutorial on fixed sidebars: https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp */
 .sidebar {
-	height: 139px;
+	height: auto;
 	width: 175px;
 	position: fixed;
 	z-index: 1;
