@@ -77,17 +77,18 @@ ul.topnav li a:hover {
 
 /*————END OF NAVIGATION BAR DESIGN————*/
 
-/*————INSIDE PAGE NAVIGATION BAR*/
+/*————INSIDE PAGE NAVIGATION BAR | To create this, I used W3School's tutorial on fixed sidebars: https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp */
 .sidebar {
-	height: 300px;
-	width: 200px;
+	height: 139px;
+	width: 175px;
 	position: fixed;
 	z-index: 1;
-	top: 300px;
+	top: 186px;
 	left: 0;
 	background-color: #1D2D44;
 	overflow-x: hidden;
 	padding-top: 20px;
+	border-radius: 0px 20px 20px 0px;
 }
 
 .sidebar a {
@@ -95,7 +96,10 @@ ul.topnav li a:hover {
 	text-decoration: none;
 	font-size: 25px;
 	color: white;
+	Font-family: Georgia, Arial, Sans-Serif;
+	font-size: 1.1rem;
 	display: block;
+	
 }
 
 .sidebar a:hover {
@@ -190,7 +194,8 @@ section {
 /*————Container for the Resource list————*/
 .resource-container {
   max-width: 800px;
-  margin: 40px auto;
+  margin-left: 200px;
+  margin-top: 40px;
   padding: 0 20px;
 }
 
