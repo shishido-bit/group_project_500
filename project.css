@@ -244,6 +244,7 @@ section {
 /*—————About Us Page: Video Title Heading—————*/
 h1.introductions
 	{
+	clear: both;
 	margin: auto;
 	font-family: Georgia, Arial, Sans-Serif;
 }
