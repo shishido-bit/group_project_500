@@ -79,11 +79,11 @@ ul.topnav li a:hover {
 
 /*————INSIDE PAGE NAVIGATION BAR*/
 .sidebar {
-	height: 100%;
-	width: 160px;
+	height: 300px;
+	width: 200px;
 	position: fixed;
 	z-index: 1;
-	top: 0;
+	top: 300px;
 	left: 0;
 	background-color: #1D2D44;
 	overflow-x: hidden;
