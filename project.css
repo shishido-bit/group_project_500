@@ -81,7 +81,7 @@ ul.topnav li a:hover {
 .sidebar {
 	height: 100%
 	width: 160px;
-	position: relative;
+	position: sticky;
 	z-index: 1;
 	top: 0;
 	left: 0;
