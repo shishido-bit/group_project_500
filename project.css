@@ -81,7 +81,7 @@ ul.topnav li a:hover {
 .sidebar {
 	height: 100%
 	width: 160px;
-	position: fixed;
+	position: relative;
 	z-index: 1;
 	top: 0;
 	left: 0;
@@ -98,7 +98,7 @@ ul.topnav li a:hover {
 	display: block;
 }
 
-.sidebar a hover {
+.sidebar a:hover {
 	color: white;
 	background-color: #748CAB;
 }
