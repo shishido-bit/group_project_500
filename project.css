@@ -244,9 +244,8 @@ section {
 }
 
 /*—————About Us Page: Video Title Heading—————*/
-.introductions {
+section.introductions {
 	text-align: center;
-	text-size: 1.2rem;
 }
 
 
