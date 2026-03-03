@@ -79,7 +79,7 @@ ul.topnav li a:hover {
 
 /*————INSIDE PAGE NAVIGATION BAR*/
 .sidebar {
-	height: 100%
+	height: 100%;
 	width: 160px;
 	position: fixed;
 	z-index: 1;
