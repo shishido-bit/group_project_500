@@ -242,7 +242,9 @@ section {
 .testv {
 	text-align: center;
 }
-
+#introductions {
+	text-align: center;
+}
 /*————END OF BODY DESIGN————*/
 
 /*————FOOTER DESIGN————*/
