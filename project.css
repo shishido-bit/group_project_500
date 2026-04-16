@@ -310,3 +310,84 @@ footer {
 
 /*————END OF FOOTER DESIGN————*/
 
+/*————MACHINE LEARNING (ML) Page design————*/
+.ml-page #canvas-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.ml-page canvas {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  box-shadow: 0 8px 22px rgba(66, 15, 15, 0.14);
+}
+
+.prediction-box {
+  margin-top: 18px;
+  padding: 18px;
+  background: var(--accent-soft);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+
+.prediction-box h3 {
+  margin-bottom: 8px;
+}
+
+#prediction {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #F0EBD8;
+}
+
+#writeup-section p {
+  text-align: left;
+  max-width: 70ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#prediction-emoji {
+  font-size: 4rem;
+  margin-top: -30px;
+}
+
+.ml-output {
+  width: 640px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.ml-output #canvas-container {
+  display: block;
+}
+
+.ml-output .prediction-box {
+  width: 100%;
+}
+
+.ml-output canvas {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.ml-output .prediction-box {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.ml-output #canvas-container {
+  margin-bottom: 0;
+}
+
+.ml-output .prediction-box {
+  margin-top: 0;
+}
+
+.ml-output canvas {
+  display: block;
+}
+
