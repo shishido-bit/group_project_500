@@ -31,7 +31,7 @@
 	</div>
 	<div class="columnright">
 		<h4>Instructions</h4>
-		<p></p>
+		<p> To use the Silverware Recognition Model, simply click "Stark Model" and allow the model to use your PC camer (it might take a few seconds for it to load!). Then try using holding up a fork, spoon, or knife at the center of the camer, and wait for the results! Note that the model works better with a clearer background</p>
 	</div>
 </section>
 	<!--<div>Teachable Machine Image Model</div>-->
@@ -64,7 +64,7 @@
 
         // Convenience function to setup a webcam
         const flip = true; // whether to flip the webcam
-        webcam = new tmImage.Webcam(200, 200, flip); // width, height, flip
+        webcam = new tmImage.Webcam(640, 480, flip); // width, height, flip
         await webcam.setup(); // request access to the webcam
         await webcam.play();
         window.requestAnimationFrame(loop);
