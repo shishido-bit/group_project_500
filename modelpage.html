@@ -5,6 +5,42 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="./project.css">
+
+<style>
+#webcam-container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically if the container has height */
+    margin: 20px 0;          /* Adds some breathing room top and bottom */
+}
+
+	#webcam-container canvas {
+    border-radius: 20px;     /* Adjust this number for more/less roundness */
+    overflow: hidden;        /* Ensures the video doesn't "bleed" past the corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Optional: adds a soft depth */
+	border-radius: 20px;     /* Adjust this number for more/less roundness */
+    overflow: hidden;        /* Ensures the video doesn't "bleed" past the corners */
+}
+
+	#label-container {
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Style the individual prediction rows */
+#label-container div {
+    background: #f4f4f4;
+    margin: 5px auto;
+    padding: 8px;
+    width: 50%; /* Adjust width as needed */
+    border-radius: 8px;
+}
+</style>
+	
 </head>
 <body>
 
