@@ -47,6 +47,11 @@
 
     let model, webcam, labelContainer, maxPredictions;
 
+	let video;
+let label = "waiting...";
+let confidence = 0;
+let classifier;
+
     // Load the image model and setup the webcam
     async function init() {
         const modelURL = URL + "model.json";
@@ -61,7 +66,7 @@
 
         // Convenience function to setup a webcam
         const flip = true; // whether to flip the webcam
-        webcam = new tmImage.Webcam(200, 200, flip); // width, height, flip
+        webcam = new tmImage.Webcam(640, 480, flip); // width, height, flip
         await webcam.setup(); // request access to the webcam
         await webcam.play();
         window.requestAnimationFrame(loop);
@@ -79,6 +84,23 @@
         await predict();
         window.requestAnimationFrame(loop);
     }
+
+	function draw() {
+  background(0);
+  image(video, 0, 0, width, height);
+
+  const predictionText = document.getElementById("prediction");
+  const predictionEmoji = document.getElementById("prediction-emoji");
+
+  let emoji = "❓";
+
+  if (label === "Fork") {
+    emoji = "☕";
+  } else if (label === "Spoon") {
+    emoji = "🥣";
+  } else if (label === "Knives") {
+    emoji = "🍽️";
+  }
 
     // run the webcam image through the image model
     async function predict() {
