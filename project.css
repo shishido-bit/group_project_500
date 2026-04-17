@@ -311,6 +311,39 @@ footer {
 /*————END OF FOOTER DESIGN————*/
 
 /*————MACHINE LEARNING (ML) Page design————*/
+#webcam-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 20px 0; 
+}
+
+	#webcam-container canvas {
+    border-radius: 20px;   
+    overflow: hidden;       
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+	border-radius: 20px;     
+    overflow: hidden;        
+}
+
+	#label-container {
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    margin-top: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+#label-container div {
+    background: #f4f4f4;
+    margin: 5px auto;
+    padding: 8px;
+    width: 50%; 
+    border-radius: 8px;
+}
+
+/*
 .ml-page #canvas-container {
   display: flex;
   justify-content: center;
@@ -390,4 +423,4 @@ footer {
 .ml-output canvas {
   display: block;
 }
-
+*/
