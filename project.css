@@ -343,6 +343,27 @@ footer {
     border-radius: 8px;
 }
 
+.tm-button {
+  background: var(--ink);
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 999px;
+  font-size: 15px;
+  font-family: inherit;
+  cursor: pointer;
+  margin: 8px 0 18px;
+}
+
+.tm-button:hover {
+  opacity: 0.92;
+}
+
+.tm-button:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(15, 23, 42, 0.22);
+}
+
 /*
 .ml-page #canvas-container {
   display: flex;
