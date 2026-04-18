@@ -344,7 +344,7 @@ footer {
 }
 
 .tm-button {
-  background: var(--ink);
+  background: #1D2D44;
   color: white;
   border: none;
   padding: 12px 18px;
